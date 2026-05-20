@@ -12,13 +12,13 @@ samples: "config/samples.tsv"
 units: "config/units.tsv"
 
 ## Path to raw data specified in units.tsv
-data_dir: "/mnt/c/Users/chano/mount/box/sequences/Illumina/RNASeq/human/BMK250331_CP604_S10_April26_Chano"
+data_dir: "raw_data"
 
 ref:
   ## Ensembl species name
   species: homo_sapiens
   ## Ensembl release
-  release: 112
+  release: 115
   ## Genome build
   build: GRCh38
   ## Merge all relevant references/annotations with pre-specified FASTA file
