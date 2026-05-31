@@ -1,0 +1,37 @@
+                                 Started job on |	May 30 01:35:56
+                             Started mapping on |	May 30 01:35:57
+                                    Finished on |	May 30 01:48:52
+       Mapping speed, Million of reads per hour |	249.63
+
+                          Number of input reads |	53740569
+                      Average input read length |	299
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |	2001404
+                        Uniquely mapped reads % |	3.72%
+                          Average mapped length |	292.75
+                       Number of splices: Total |	33588
+            Number of splices: Annotated (sjdb) |	0
+                       Number of splices: GT/AG |	3754
+                       Number of splices: GC/AG |	990
+                       Number of splices: AT/AC |	5
+               Number of splices: Non-canonical |	28839
+                      Mismatch rate per base, % |	0.88%
+                         Deletion rate per base |	0.45%
+                        Deletion average length |	2.84
+                        Insertion rate per base |	0.62%
+                       Insertion average length |	2.61
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |	213288
+             % of reads mapped to multiple loci |	0.40%
+        Number of reads mapped to too many loci |	200
+             % of reads mapped to too many loci |	0.00%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |	0
+       % of reads unmapped: too many mismatches |	0.00%
+            Number of reads unmapped: too short |	37978
+                 % of reads unmapped: too short |	0.07%
+                Number of reads unmapped: other |	51487699
+                     % of reads unmapped: other |	95.81%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |	0
+                            % of chimeric reads |	0.00%

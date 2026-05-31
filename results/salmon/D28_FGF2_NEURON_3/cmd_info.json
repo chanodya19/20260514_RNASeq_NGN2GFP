@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.10.3",
+    "index": "resources/salmon_index",
+    "libType": "A",
+    "mates1": "results/trim/fastq/D28_FGF2_NEURON_3_1_R1.fastq.gz",
+    "mates2": "results/trim/fastq/D28_FGF2_NEURON_3_1_R2.fastq.gz",
+    "output": "results/salmon/D28_FGF2_NEURON_3",
+    "threads": "8",
+    "auxDir": "aux_info"
+}

@@ -1,0 +1,22 @@
+{
+    "read_files": "[ results/trim/fastq/D0_NPC_4_1_R1.fastq.gz, results/trim/fastq/D0_NPC_4_1_R2.fastq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 27705316,
+    "num_assigned_fragments": 27705316,
+    "num_frags_with_concordant_consistent_mappings": 27077594,
+    "num_frags_with_inconsistent_or_orphan_mappings": 657510,
+    "strand_mapping_bias": 0.000006536727118343678,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 177,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 27077594,
+    "SF": 316116,
+    "SR": 341217,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

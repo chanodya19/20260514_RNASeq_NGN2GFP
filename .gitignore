@@ -7,3 +7,18 @@ resources/*
 results/salmon/*/aux_info/bootstrap/
 results/junctions/*.bed
 results/rseqc/inner_distance/*.inner_distance.txt
+
+## Common large files
+*.fastq.gz
+*.fq.gz
+*.fa
+*.sai
+*.bam
+*.bai
+*.vcf
+*.vcf.idx
+*.vcf.gz
+*.vcf.gz.tbi
+*.bedGraph
+*.bigWig
+

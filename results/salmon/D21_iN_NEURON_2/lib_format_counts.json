@@ -1,0 +1,22 @@
+{
+    "read_files": "[ results/trim/fastq/D21_iN_NEURON_2_1_R1.fastq.gz, results/trim/fastq/D21_iN_NEURON_2_1_R2.fastq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 28214900,
+    "num_assigned_fragments": 28214900,
+    "num_frags_with_concordant_consistent_mappings": 27405242,
+    "num_frags_with_inconsistent_or_orphan_mappings": 856756,
+    "strand_mapping_bias": 0.000010107453173939162,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 277,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 27405242,
+    "SF": 415760,
+    "SR": 440719,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

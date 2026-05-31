@@ -1,0 +1,151 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2024-01-29T15:15:38+0000 :/opt/conda/conda-bld/star_1706541070242/work/source
+##### Command Line:
+/home/neuro/chano/20260514_RNASeq_NGN2GFP/.snakemake/conda/3a409b18326bd378694bdd2eb0625c93_/bin/STAR-avx2 --runThreadN 16 --genomeDir resources/rrna_index --readFilesIn results/trim/fastq/D21_iN_NEURON_1_1_R1.fastq.gz results/trim/fastq/D21_iN_NEURON_1_1_R2.fastq.gz --readFilesCommand gunzip -c --outSAMtype BAM Unsorted --outTmpDir /tmp/tmp_u6ryzz3/STARtmp --outFileNamePrefix /tmp/tmp_u6ryzz3/ --outStd BAM_Unsorted
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 /tmp/tmp_u6ryzz3/
+outTmpDir                         /tmp/tmp_u6ryzz3/STARtmp
+outStd                            BAM_Unsorted
+###### All USER parameters from Command Line:
+runThreadN                    16     ~RE-DEFINED
+genomeDir                     resources/rrna_index     ~RE-DEFINED
+readFilesIn                   results/trim/fastq/D21_iN_NEURON_1_1_R1.fastq.gz   results/trim/fastq/D21_iN_NEURON_1_1_R2.fastq.gz        ~RE-DEFINED
+readFilesCommand              gunzip   -c        ~RE-DEFINED
+outSAMtype                    BAM   Unsorted        ~RE-DEFINED
+outTmpDir                     /tmp/tmp_u6ryzz3/STARtmp     ~RE-DEFINED
+outFileNamePrefix             /tmp/tmp_u6ryzz3/     ~RE-DEFINED
+outStd                        BAM_Unsorted     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runThreadN                        16
+genomeDir                         resources/rrna_index
+readFilesIn                       results/trim/fastq/D21_iN_NEURON_1_1_R1.fastq.gz   results/trim/fastq/D21_iN_NEURON_1_1_R2.fastq.gz   
+readFilesCommand                  gunzip   -c   
+outFileNamePrefix                 /tmp/tmp_u6ryzz3/
+outTmpDir                         /tmp/tmp_u6ryzz3/STARtmp
+outStd                            BAM_Unsorted
+outSAMtype                        BAM   Unsorted   
+
+-------------------------------
+##### Final effective command line:
+/home/neuro/chano/20260514_RNASeq_NGN2GFP/.snakemake/conda/3a409b18326bd378694bdd2eb0625c93_/bin/STAR-avx2   --runThreadN 16   --genomeDir resources/rrna_index   --readFilesIn results/trim/fastq/D21_iN_NEURON_1_1_R1.fastq.gz   results/trim/fastq/D21_iN_NEURON_1_1_R2.fastq.gz      --readFilesCommand gunzip   -c      --outFileNamePrefix /tmp/tmp_u6ryzz3/   --outTmpDir /tmp/tmp_u6ryzz3/STARtmp   --outStd BAM_Unsorted   --outSAMtype BAM   Unsorted   
+----------------------------------------
+
+Number of fastq files for each mate = 1
+
+   Input read files for mate 1 :
+-rw-rw-r-- 1 neuro neuro 3635488827 May 29 17:45 results/trim/fastq/D21_iN_NEURON_1_1_R1.fastq.gz
+
+   readsCommandsFile:
+exec > "/tmp/tmp_u6ryzz3/STARtmp/tmp.fifo.read1"
+echo FILE 0
+gunzip   -c      "results/trim/fastq/D21_iN_NEURON_1_1_R1.fastq.gz"
+
+
+   Input read files for mate 2 :
+-rw-rw-r-- 1 neuro neuro 3724742411 May 29 17:45 results/trim/fastq/D21_iN_NEURON_1_1_R2.fastq.gz
+
+   readsCommandsFile:
+exec > "/tmp/tmp_u6ryzz3/STARtmp/tmp.fifo.read2"
+echo FILE 0
+gunzip   -c      "results/trim/fastq/D21_iN_NEURON_1_1_R2.fastq.gz"
+
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+Reading genome generation parameters:
+### /home/neuro/chano/20260514_RNASeq_NGN2GFP/.snakemake/conda/3a409b18326bd378694bdd2eb0625c93_/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 1   --genomeDir resources/rrna_index   --genomeFastaFiles resources/rdna.fa      --outTmpDir /tmp/tmpnrr33mlb/STARtmp
+### GstrandBit=32
+versionGenome                 2.7.4a     ~RE-DEFINED
+genomeType                    Full     ~RE-DEFINED
+genomeFastaFiles              resources/rdna.fa        ~RE-DEFINED
+genomeSAindexNbases           14     ~RE-DEFINED
+genomeChrBinNbits             18     ~RE-DEFINED
+genomeSAsparseD               1     ~RE-DEFINED
+genomeTransformType           None     ~RE-DEFINED
+genomeTransformVCF            -     ~RE-DEFINED
+sjdbOverhang                  0     ~RE-DEFINED
+sjdbFileChrStartEnd           -        ~RE-DEFINED
+sjdbGTFfile                   -     ~RE-DEFINED
+sjdbGTFchrPrefix              -     ~RE-DEFINED
+sjdbGTFfeatureExon            exon     ~RE-DEFINED
+sjdbGTFtagExonParentTranscripttranscript_id     ~RE-DEFINED
+sjdbGTFtagExonParentGene      gene_id     ~RE-DEFINED
+sjdbInsertSave                Basic     ~RE-DEFINED
+genomeFileSizes               262144   354638        ~RE-DEFINED
+Genome version is compatible with current STAR
+Number of real (reference) chromosomes= 1
+1	U13369.1	42999	0
+Started loading the genome: Fri May 29 23:00:54 2026
+
+Genome: size given as a parameter = 262144
+SA: size given as a parameter = 354638
+SAindex: size given as a parameter = 1
+Read from SAindex: pGe.gSAindexNbases=14  nSAi=357913940
+nGenome=262144;  nSAbyte=354638
+GstrandBit=32   SA number of indices=85972
+Shared memory is not used for genomes. Allocated a private copy of the genome.
+Genome file size: 262144 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 262144 bytes
+SA file size: 354638 bytes; state: good=1 eof=0 fail=0 bad=0
+Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 354638 bytes
+Loading SAindex ... done: 1565873619 bytes
+Finished loading the genome: Fri May 29 23:00:55 2026
+
+alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
+Created thread # 1
+Starting to map file # 0
+mate 1:   results/trim/fastq/D21_iN_NEURON_1_1_R1.fastq.gz
+mate 2:   results/trim/fastq/D21_iN_NEURON_1_1_R2.fastq.gz
+Created thread # 2
+Created thread # 3
+Created thread # 4
+Created thread # 5
+Created thread # 6
+Created thread # 7
+Created thread # 8
+Created thread # 9
+Created thread # 10
+Created thread # 11
+Created thread # 12
+Created thread # 13
+Created thread # 14
+Created thread # 15
+Thread #14 end of input stream, nextChar=-1
+Completed: thread #11
+Completed: thread #13
+Completed: thread #4
+Completed: thread #12
+Completed: thread #6
+Completed: thread #0
+Completed: thread #3
+Completed: thread #1
+Joined thread # 1
+Completed: thread #10
+Completed: thread #9
+Completed: thread #5
+Completed: thread #7
+Completed: thread #14
+Completed: thread #8
+Completed: thread #2
+Joined thread # 2
+Joined thread # 3
+Joined thread # 4
+Joined thread # 5
+Joined thread # 6
+Joined thread # 7
+Joined thread # 8
+Joined thread # 9
+Joined thread # 10
+Joined thread # 11
+Joined thread # 12
+Joined thread # 13
+Joined thread # 14
+Completed: thread #15
+Joined thread # 15
+May 29 23:12:13 ..... finished mapping
+RAM after mapping:
+VmPeak:	 5125164 kB; VmSize:	 4969664 kB; VmHWM:	 3921268 kB; VmRSS:	 3921268 kB; 
+RAM after freeing genome index memory:
+VmPeak:	 5125164 kB; VmSize:	 3439880 kB; VmHWM:	 3914880 kB; VmRSS:	 2391484 kB; 
+ALL DONE!
