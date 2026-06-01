@@ -22,3 +22,5 @@ results/rseqc/inner_distance/*.inner_distance.txt
 *.bedGraph
 *.bigWig
 
+.Rproj.user
+.positai
